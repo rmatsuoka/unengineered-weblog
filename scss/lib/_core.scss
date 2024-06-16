@@ -127,10 +127,19 @@ h6 {
   font-size: 1.3rem;
 }
 .categories {
-  margin: 0.5em 0;
-  font-size: 0.9rem;
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
   a {
+    color: $text;
     margin-right: 0.5em;
+    text-decoration: none;
+    border: 1px solid $text;
+    border-radius: 2px;
+    padding: 0.1em 0.8em;
+    &:hover {
+      border-color: $hover;
+      color: $hover;
+    }
   }
 }
 
