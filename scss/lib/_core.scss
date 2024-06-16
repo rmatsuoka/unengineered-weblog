@@ -38,37 +38,17 @@ h6 {
 #footer {
   padding-left: 10px;
   padding-right: 10px;
-  @media #{$mq-sm} {
-    width: 720px;
-    margin: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  @media #{$mq-md} {
-    width: 940px;
-  }
+  max-width: $container-max-width;
+  margin: auto;
 }
 
 #content-inner {
   flex-direction: column;
   align-items: center;
 }
-#wrapper {
-  @media #{$mq-sm} {
-    width: 100%;
-  }
-  @media #{$mq-md} {
-    max-width: 720px;
-  }
-}
+
 #box2 {
   width: 100%;
-  @media #{$mq-sm} {
-    width: 100%;
-  }
-  @media #{$mq-md} {
-    width: 100%;
-  }
 }
 
 #box2-inner {
