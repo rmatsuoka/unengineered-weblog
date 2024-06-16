@@ -49,82 +49,50 @@ h6 {
   }
 }
 
-/* 2カラムレイアウト */
 #content-inner {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  @media #{$mq-sm} {
-    flex-direction: row;
-  }
+  align-items: center;
 }
 #wrapper {
   @media #{$mq-sm} {
-    width: 480px;
-  }
-  @media #{$mq-md} {
-    width: 600px;
-  }
-}
-#box2 {
-  @media #{$mq-sm} {
-    width: 200px;
-  }
-  @media #{$mq-md} {
-    width: 300px;
-  }
-}
-
-/* 下記のスタイルを適用するとテーマを1カラムレイアウトにできます。
-利用するにはコメントアウトを解除してください。
-（2カラムレイアウトの場合はコメントアウト全体が不要です）
-
-#content-inner {
-    flex-direction: column;
-    align-items: center;
-}
-#wrapper {
-    @media #{$mq-sm} {
-        width: 100%;
-    }
-    @media #{$mq-md} {
-        max-width: 720px;
-    }
-}
-#box2 {
     width: 100%;
-    @media #{$mq-sm} {
-        width: 100%;
-    }
-    @media #{$mq-md} {
-        width: 100%;
-    }
+  }
+  @media #{$mq-md} {
+    max-width: 720px;
+  }
+}
+#box2 {
+  width: 100%;
+  @media #{$mq-sm} {
+    width: 100%;
+  }
+  @media #{$mq-md} {
+    width: 100%;
+  }
 }
 
 #box2-inner {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    @media #{$mq-sm} {
-        margin-left: -20px;
-        flex-direction: row;
-    }
-    @media #{$mq-md} {
-        margin-left: -30px;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  @media #{$mq-sm} {
+    margin-left: -20px;
+    flex-direction: row;
+  }
+  @media #{$mq-md} {
+    margin-left: -30px;
+  }
 }
 .hatena-module {
-    width: 100%;
-    @media #{$mq-sm} {
-        width: 33.3333%;
-    }
-    @media #{$mq-md} {
-        padding-left: 30px;
-    }
+  width: 100%;
+  @media #{$mq-sm} {
+    width: 33.3333%;
+  }
+  @media #{$mq-md} {
+    padding-left: 30px;
+  }
 }
-
----- END 1カラム */
 
 /* ヘッダ */
 #blog-title {
