@@ -1,11 +1,16 @@
 // Variables
 
 // Font
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-$font-family-base: 'Noto Serif JP', "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-$font-family-bold: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic';
-$font-family-monospace:  'Roboto Mono', Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+$font-family-base: "Noto Serif JP", "游明朝", YuMincho,
+  "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN",
+  "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+$font-family-bold: "Helvetica Neue", "Helvetica", "Arial",
+  "Hiragino Kaku Gothic Pro", "Meiryo", "MS PGothic";
+$font-family-monospace: "Roboto Mono", Consolas, Menlo, Monaco, Lucida Console,
+  Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+  monospace, serif;
 
 // Background color
 $background: #fffefa;
