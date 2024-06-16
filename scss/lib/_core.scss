@@ -131,9 +131,7 @@ h6 {
   margin-bottom: 4em;
 }
 .entry-header {
-  padding-bottom: 1em;
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border;
+  padding-bottom: 5rem;
   position: relative;
 }
 .date {
@@ -148,11 +146,8 @@ h6 {
   }
 }
 .entry-title {
-  margin: 0 0 0.3em;
-  font-size: 1.5rem;
-  @media #{$mq-md} {
-    font-size: 1.6rem;
-  }
+  margin: 0;
+  font-size: 1.3rem;
 }
 .categories {
   margin: 0.5em 0;
