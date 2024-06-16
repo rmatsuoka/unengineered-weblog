@@ -390,11 +390,16 @@ h6 {
   .profile-icon {
     float: left;
     margin: 0 10px 10px 0;
+    height: 3rem !important;
+    width: 3rem !important;
+    border-radius: 100%;
   }
   .id {
     display: block;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    a {
+      text-decoration: none;
+    }
   }
   .profile-description {
     p {
