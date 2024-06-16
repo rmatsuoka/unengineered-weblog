@@ -52,26 +52,10 @@ h6 {
 }
 
 #box2-inner {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: flex-start;
-  @media #{$mq-sm} {
-    margin-left: -20px;
-    flex-direction: row;
-  }
-  @media #{$mq-md} {
-    margin-left: -30px;
-  }
+  padding-top: 5rem;
 }
 .hatena-module {
   width: 100%;
-  @media #{$mq-sm} {
-    width: 33.3333%;
-  }
-  @media #{$mq-md} {
-    padding-left: 30px;
-  }
 }
 
 /* ヘッダ */
@@ -390,7 +374,6 @@ h6 {
 .hatena-module-title {
   margin-bottom: 0.6em;
   padding-bottom: 0.2em;
-  border-bottom: 1px solid $border;
   font-size: 1rem;
   font-weight: bold;
   a {
