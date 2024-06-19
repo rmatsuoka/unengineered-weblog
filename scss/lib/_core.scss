@@ -340,6 +340,26 @@ h6 {
   }
 }
 
+/* はてなブログタグアーカイブ画面 */
+.archive-entry-tag .archive-entry-tag-link {
+  color: $link;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.1em 0.8em;
+  font-size: 0.75rem;
+  background-color: $background;
+  border: 1px solid $link;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+  &:hover {
+    border-color: $hover;
+    color: $hover;
+  }
+}
+
 /* コメント */
 .comment-box {
   margin: 1em 0;
