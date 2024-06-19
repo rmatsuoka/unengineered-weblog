@@ -391,7 +391,7 @@ h6 {
 }
 .comment-user-name {
   margin: 0 0 0.4em 0;
-  font-weight: bold;
+  font-weight: normal;
   a {
     text-decoration: none;
   }
@@ -438,7 +438,7 @@ h6 {
   margin-bottom: 0.6em;
   padding-bottom: 0.2em;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: normal;
   a {
     color: $text;
     text-decoration: none;
@@ -459,7 +459,7 @@ h6 {
   }
   .id {
     display: block;
-    font-weight: bold;
+    font-weight: normal;
     a {
       text-decoration: none;
     }
@@ -543,7 +543,7 @@ h6 {
 .page-about {
   .entry-content {
     dt {
-      font-weight: bold;
+      font-weight: normal;
       border-bottom: 1px solid $border;
       margin-bottom: 0.5em;
     }
