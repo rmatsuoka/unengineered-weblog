@@ -10,7 +10,7 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
+    "autoprefixer": "^10.4.20",
     "normalize.css": "^8.0.1",
     "sass": "^1.71.1",
     "vite": "^5.1.8"
